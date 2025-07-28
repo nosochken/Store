@@ -1,12 +1,12 @@
 public class Order
 {
     public string Paylink { get; }
-    
+
     public Order()
     {
         Paylink = CreateLink();
     }
-    
+
     private string CreateLink()
     {
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

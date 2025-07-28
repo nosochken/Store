@@ -3,7 +3,7 @@ public class Warehouse : GoodsDisplayer
     private Dictionary<Good, int> _goods = new Dictionary<Good, int>();
 
     public IReadOnlyDictionary<Good, int> Goods => _goods;
-    
+
     public override void ShowGoods()
     {
         Display(_goods, "на складе");
@@ -21,12 +21,12 @@ public class Warehouse : GoodsDisplayer
         else
             _goods.Add(good, amount);
     }
-    
+
     public void PickUpOrderedGoods(IReadOnlyDictionary<Good, int> orderedGoods)
     {
         if (orderedGoods == null)
             throw new ArgumentNullException(nameof(orderedGoods));
-            
+
         foreach (KeyValuePair<Good, int> orderedGood in orderedGoods)
         {
             if (_goods.TryGetValue(orderedGood.Key, out int availableAmount))

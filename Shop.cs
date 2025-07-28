@@ -13,9 +13,9 @@ public class Shop
     }
 
     public Cart Cart()
-    {        
+    {
         Cart? freeCart = _carts.FirstOrDefault(cart => cart.IsBusy == false);
-        
+
         if (freeCart == null)
         {
             freeCart = new Cart();
@@ -27,17 +27,17 @@ public class Shop
 
         return freeCart;
     }
-    
+
     private void PickUpGoodFromWarehouse(Cart cart, IReadOnlyDictionary<Good, int> goods)
     {
         if (cart == null)
             throw new ArgumentNullException(nameof(cart));
-            
+
         if (goods == null)
             throw new ArgumentNullException(nameof(goods));
-            
+
         cart.GoodsOrdered -= PickUpGoodFromWarehouse;
-            
+
         _warehouse.PickUpOrderedGoods(goods);
     }
 }
