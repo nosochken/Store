@@ -1,0 +1,15 @@
+/Users/evelinanoskova/Documents/Code/Store/bin/Debug/net7.0/Store
+/Users/evelinanoskova/Documents/Code/Store/bin/Debug/net7.0/Store.deps.json
+/Users/evelinanoskova/Documents/Code/Store/bin/Debug/net7.0/Store.runtimeconfig.json
+/Users/evelinanoskova/Documents/Code/Store/bin/Debug/net7.0/Store.dll
+/Users/evelinanoskova/Documents/Code/Store/bin/Debug/net7.0/Store.pdb
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.csproj.AssemblyReference.cache
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.AssemblyInfoInputs.cache
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.AssemblyInfo.cs
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.csproj.CoreCompileInputs.cache
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.dll
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/refint/Store.dll
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.pdb
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/Store.genruntimeconfig.cache
+/Users/evelinanoskova/Documents/Code/Store/obj/Debug/net7.0/ref/Store.dll
